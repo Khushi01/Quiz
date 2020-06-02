@@ -1,0 +1,138 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style2 {
+	color: #990000;
+	font-weight: bold;
+  font-size: -webkit-xxx-large;
+}
+.style4 {
+	color: #000000;
+	font-weight: bold;
+}
+.style5 {color: #262626}
+.style6 {color: #ECE9D8}
+.style7 {
+	color: #262626;
+	font-weight: bold;
+}
+.style8 {
+	
+	color: #262626;
+	font-weight: bold;
+  font-size: xx-large;
+}
+.style2 {
+  font-size: -webkit-xxx-large;
+}
+/*...................neha's work...........................................*/
+.navbar {
+  color: #262626;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.style9 {
+	color: #262626;
+}
+.selo {
+  font-family: 'Poppins';
+}
+
+.btn:hover{
+  background-color: #64a1de;
+  color:white;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem;
+}
+
+.color span {
+  background-color: #262626;
+  color: #ffffff;
+}
+
+.color span:hover {
+  background-color: #64a1de;
+  color: #ffffff;
+}
+
+.color .hover:hover {
+  color: #64a1de;
+}
+
+.wel {
+  color: #F8F8FF;
+  background: #F8F8FF;
+}
+.h1 .h1 {
+  font-size: 67px;
+}
+
+.bigsize {
+  font-size: -webkit-xxx-large;
+  font-weight: bold;
+  font-style: bold;
+  font-color: blue;
+}
+
+/*...............end neha's work......................*/
+
+a:link {
+	color: #330066;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFCC00;
+	text-decoration: underline;
+}
+a:visited {
+	color: #330066;
+	text-decoration: none;
+}
+.head1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	color: #FF0000;
+	text-align: center;
+	font-weight: bold;
+}
+.errors {
+
+	color: #FF0000;
+	font-weight: bold;
+}
+.tot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+.tot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	
+}
+.tans {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#00CC66 ;
+}
+.fans {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#FF0000 ;
+}

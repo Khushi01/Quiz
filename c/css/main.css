@@ -1,0 +1,620 @@
+.tg-footer{
+	background: #f7f7f7;
+	border-top: 2px solid;
+}
+.tg-footerarea{
+	width: 100%;
+	float: left;
+}
+.tg-clientservices{
+	width: 100%;
+	float: left;
+	color: #666;
+	padding: 60px 0;
+	list-style: none;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	border-bottom: 1px solid #dbdbdb;
+}
+.tg-clientservices li{
+	width: 25%;
+	float: left;
+	padding: 0 15px;
+	position: relative;
+	font-size: inherit;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-clientserviceicon{
+	width: 50px;
+	font-size: 30px;
+	line-height: 50px;
+}
+.tg-clientserviceicon i{
+	display: block;
+	line-height: inherit;
+}
+.tg-clientserviceicon,
+.tg-titlesubtitle{
+	display: inline-block;
+	vertical-align: middle;
+}
+.tg-titlesubtitle{text-align: left;}
+.tg-titlesubtitle h3{
+	margin: 0 0 9px;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 22px;
+}
+.tg-titlesubtitle p{
+	margin: 0;
+	line-height: 19px;
+}
+.tg-threecolumns{
+	width: 100%;
+	float: left;
+	padding: 60px 0;
+}
+.tg-footercol{
+	width: 100%;
+	float: left;
+	min-height: 350px;
+}
+.tg-footercol .tg-logo{padding: 0 0 30px;}
+.tg-contactinfo{
+	width: 100%;
+	float: left;
+	list-style: none;
+}
+.tg-contactinfo li{
+	width: 100%;
+	float: left;
+	padding: 0 0 20px;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-contactinfo li > i{
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 40px;
+}
+.tg-contactinfo li > i,
+.tg-contactinfo li address,
+.tg-contactinfo li span{
+	margin: 0;
+	font-style: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+.tg-contactinfo li address{
+	width: 80%;
+}
+.tg-contactinfo li span em{
+	display: block;
+	font-style: normal;
+}
+.tg-footercol .tg-socialicons{
+	width: 100%;
+	float: left;
+}
+.tg-widget{
+	width: 100%;
+	float: left;
+}
+.tg-widget + .tg-widget{margin:30px 0 0;}
+.tg-widgettitle{
+	color:#fff;
+	width: 100%;
+	float: left;
+	padding:0 20px;
+	border-radius:5px;
+	background:#484848;
+	border-bottom: 1px solid #dbdbdb;
+}
+.tg-widgettitle h3{
+	margin: 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight:500;
+	line-height:40px;
+}
+.tg-widgetcontent{
+	width: 100%;
+	float: left;
+}
+.tg-widget ul{
+	width: 100%;
+	float: left;
+	font-size: 13px;
+	line-height: 17px;
+	list-style: none;
+	font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.tg-widget ul li{
+	width: 100%;
+	float: left;
+	padding:11px 0;
+	position: relative;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-widget ul li + li{border-top:1px solid #e6e6e6;}
+.tg-widget ul li a{
+	color: #666;
+	display:block;
+}
+.tg-widget ul li a em{
+	float:right;
+	font-style:normal;
+}
+.tg-widget ul li figure{
+	margin: 0;
+	float: left;
+}
+.tg-widget ul li figure a{display: block;}
+.tg-widget ul li figure a img{display: block;}
+.tg-widgettopsellingauthors ul li{padding: 10px 0;}
+.tg-widgettopsellingauthors ul li figure{border:4px solid transparent;}
+.tg-widgettopsellingauthors ul li:hover figure{
+	border-color:#fff;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,0.20);
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.20);
+}
+.tg-widgettopsellingauthors ul li:before{display: none;}
+.tg-authornamebooks{
+	overflow: hidden;
+	padding: 12px 0 12px 15px;
+}
+.tg-authornamebooks h4{
+	margin: 0 0 10px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+}
+.tg-authornamebooks h4 a{color: #404040;}
+.tg-authornamebooks p{margin: 0;}
+.tg-widgetnavigation ul{
+	width: 50%;
+	float: left;
+}
+.tg-footercol .tg-widgettitle{
+	padding:0;
+	background:none;
+	margin:0 0 15px;
+}
+.tg-footercol .tg-widgettitle h3{
+	color:#404040;
+	font-size:16px;
+	padding:0 0 20px;
+	line-height:normal;
+}
+.tg-widget.tg-widgetnavigation ul li{
+	position:relative;
+	padding:11px 0 11px 15px;
+}
+.tg-widget.tg-widgetnavigation ul li:before{
+	left:0;
+	top:50%;
+	width:5px;
+	height:5px;
+	content:'';
+	margin:-2px 0 0;
+	background:#666;
+	position:absolute;
+	border-radius:50%;
+}
+.tg-footercol.tg-widget ul li + li{border:0;}
+.tg-widgetsearch .tg-formsearch .form-group{
+	margin:0;
+	position:relative;
+}
+.tg-widgetsearch .tg-formsearch .form-group input{height:50px;}
+.tg-widgetsearch .tg-formsearch .form-group button{
+	top:50%;
+	z-index:2;
+	color:#666;
+	right:20px;
+	font-size:16px;
+	background:none;
+	line-height:16px;
+	position:absolute;
+	margin:-8px 0 0 0;
+}
+.tg-widget.tg-catagories ul li{padding:11px 10px;}
+.tg-widget.tg-widgettrending ul{padding:15px 0 0;}
+.tg-widget.tg-widgettrending ul li{
+	border:0;
+	padding:5px 0;
+}
+.tg-widgetcontent .tg-post{
+	margin:0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+.tg-widgetcontent .tg-post figure{
+	width:180px;
+	margin:0 8px 0 0;
+}
+.tg-widgetcontent .tg-post .tg-postcontent{
+	width:auto;
+	float:none;
+	padding:0;
+	overflow:hidden;
+}
+.tg-widgetcontent .tg-post .tg-posttitle h3 a{
+	width:100%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.tg-widgetcontent .tg-post .tg-bookwriter{padding:0;}
+.tg-widgetcontent .tg-post .tg-bookwriter a{display:inline-block;}
+.tg-widgetinstagram ul{padding:10px 0 0;}
+.tg-widgetinstagram ul li{
+	border:0;
+	padding:5px;
+	width:33.33%;
+}
+.tg-widgetinstagram ul li + li{border:0;}
+.tg-widgetinstagram ul li figure {
+	width:100%;
+	float:left;
+	border:4px solid transparent;
+}
+.tg-widgetinstagram ul li figure img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-widgetinstagram ul li figure figcaption{
+	top:0;
+	left:0;
+	opacity:0;
+	width:100%;
+	height:100%;
+	visibility:hidden;
+	position:absolute;
+	background:rgba(72, 72, 72, 0.60);
+	display: flex;
+	text-align:center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.tg-widgetinstagram ul li:hover figure{
+	border-color:#fff;
+	-webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,0.20);
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.20);
+}
+.tg-widgetinstagram ul li:hover figure figcaption{
+	opacity:1;
+	visibility:visible;
+}
+.tg-widgetinstagram ul li figure figcaption a{color:#fff;}
+.tg-widgetinstagram ul li figure figcaption a i{display:block;}
+.tg-widgetinstagram ul li:hover figure figcaption a,
+.tg-widgetinstagram ul li:hover figure figcaption em{color:#fff;}
+.tg-widgetblogers ul li + li{border:0;}
+.tg-widgetblogers ul {padding:15px 0 0;}
+.tg-widgetblogers ul li{padding:5px 0;}
+.tg-widgetblogers ul li .tg-author{
+	margin:0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.tg-widgetblogers ul li .tg-author figure{
+	width:80px;
+	margin:0 10px 0 0;
+}
+.tg-widgetblogers ul li .tg-author .tg-authorcontent{
+	padding:0;
+	width:auto;
+	float:none;
+	overflow:hidden;
+	text-align:left;
+}
+.tg-widgetblogers ul li .tg-author .tg-authorcontent span{padding:15px 0 0;}
+.tg-newsletter{
+	width: 100%;
+	float: left;
+	padding: 40px 0;
+	background: #f2f2f2;
+	border-top: 1px solid #dbdbdb;
+}
+.tg-newsletter h4{
+	margin: 0 0 15px;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.tg-newsletter h5{
+	margin: 0;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 17px;
+}
+.tg-formnewsletter {margin: 6px 0;}
+.tg-formnewsletter fieldset{position: relative;}
+.tg-formnewsletter fieldset .form-control{
+	z-index: 1;
+	height: 50px;
+	line-height: 28px;
+	position: relative;
+	padding-right: 60px;
+}
+.tg-formnewsletter fieldset button{
+	top: 0;
+	right: 0;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	position: absolute;
+	background: transparent;
+}
+.tg-footerbar{
+	width: 100%;
+	float: left;
+	padding: 20px 0;
+	position: relative;
+	background: #484848;
+}
+.tg-copyright{
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	line-height: 21px;
+}
+.tg-paymenttype{float: right;}
+.tg-paymenttype img{display: block;}
+.tg-btnbacktotop{
+	top: -20px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	color: #484848;
+	background: #fff;
+	line-height: 40px;
+	border-radius: 3px;
+	position: absolute;
+	text-align: center;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.20);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.20);
+}
+.tg-btnbacktotop i{
+	display: block;
+	color: #484848;
+	line-height: inherit;
+}
+/* ==========================================================================
+			Inner Pages Style												
+========================================================================== */
+/* =============================================
+			Inner Banner Style					
+============================================= */
+.tg-innerbanner{
+	height:300px;
+	text-align:center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	justify-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.tg-innerbannercontent{
+	width:100%;
+	float:left;
+}
+.tg-innerbannercontent h1{
+	font-size:50px;
+	line-height:40px;
+	font-weight:bold;
+}
+/* =============================================
+			About Us Style						
+============================================= */
+.tg-aboutus,
+.tg-aboutusshortcode{
+	width:100%;
+	float:left;
+}
+.tg-aboutus{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.tg-aboutusshortcode .tg-description{padding:0 0 25px;}
+.tg-aboutusshortcode .tg-description p{margin:0;}
+.tg-aboutus figure{
+	margin:0;
+	width:100%;
+	float:left;
+	position:relative;
+}
+.tg-aboutus figure img{
+	opacity:0;
+	width:100%;
+	height:auto;
+	visibility:hidden;
+}
+.tg-aboutus figure iframe{
+	top:0;
+	left:0;
+	z-index:2;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+.tg-member .tg-authorcontent{padding:20px 0 0;}
+.tg-member .tg-authorcontent span{padding:15px 0 20px;}
+/* =============================================
+			Success Journey Style				
+============================================= */
+.tg-successstory{
+	width:100%;
+	float:left;
+}
+.tg-successstory .tg-sectionhead{
+	margin:0 0 30px;
+	padding:0 0 30px;
+}
+.tg-success,
+.tg-success .item{
+	width:100%;
+	float:left;
+}
+.tg-success figure{
+	margin:0;
+	float:left;
+}
+.tg-success figure img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-successcontent{
+	overflow:hidden;
+	padding:66px 0 66px 30px;
+}
+.tg-successcontent .tg-description p{margin:0;}
+.tg-successslider .owl-nav {
+	top: -84px;
+	right: 15px;
+	width: auto;
+	float: none;
+	position: absolute;
+}
+/* =============================================
+			Author Grid Style					
+============================================= */
+.tg-authorsgrid{
+	width:100%;
+	float:left;
+	padding:80px 0 65px;
+}
+/* =============================================
+			404 Error Style						
+============================================= */
+.tg-404error{
+	width:100%;
+	float:left;
+}
+.tg-404errorcontent{
+	width:100%;
+	float:left;
+	padding:0 0 60px;
+	text-align:center;
+}
+.tg-404errorcontent h2{
+	font-size:40px;
+	margin:0 0 25px;
+	font-weight:bold;
+	line-height:35px;
+}
+.tg-404errorcontent span{
+	display:block;
+	font-size:200px;
+	font-weight:bold;
+	padding:0 0 60px;
+	line-height:140px;
+	position:relative;
+	font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.tg-404errorcontent span:before{
+	left:50%;
+	bottom:0;
+	content:'';
+	height:4px;
+	width:170px;
+	position:absolute;
+	background:#484848;
+	margin:0 0 0 -85px;
+}
+.tg-gobackhome{float:right;}
+.tg-gobackhome a,
+.tg-gobackhome span{
+	display:inline-block;
+	vertical-align:middle;
+}
+.tg-gobackhome a{float:none;}
+.tg-gobackhome span{
+	font-size:13px;
+	line-height:13px;
+}
+/* =============================================
+			Contact Us Style					
+============================================= */
+.tg-contactus{
+	width:100%;
+	float:left;
+}
+.tg-contactus .tg-sectionhead{margin:0 0 30px;}
+.tg-map{
+	width:100%;
+	float:left;
+	height:767px;
+}
+.tg-formcontactus{
+	width:auto;
+	float:none;
+	clear:both;
+	margin:0 -10px;
+	overflow:hidden;
+}
+.tg-formcontactus fieldset .form-group{
+	width:50%;
+	float:left;
+	padding:0 10px;
+}
+.tg-formcontactus fieldset .form-group.tg-hastextarea{width:100%;}
+.tg-formcontactus fieldset .form-group textarea{
+	width:100%;
+	float:left;
+	resize:none;
+	height:210px;
+}
+.tg-formcontactus fieldset .form-group .tg-btn{padding:0 60px;}
+.tg-contactdetail{
+	width:100%;
+	float:left;
+	padding:6px 0 0;
+}
+.tg-contactdetail .tg-sectionhead{
+	margin:0 0 30px;
+	padding:0 0 25px;
+}
+.tg-contactdetail .tg-sectionhead h2{
+	font-size:22px;
+	font-weight:500;
+	line-height:22px;
+}
+.tg-contactdetail .tg-contactinfo li {padding: 0 0 18px;}
+.tg-contactdetail .tg-socialicons{
+	width:100%;
+	float:left;
+}
+/* =============================================
+			News Grid Style						
+============================================= */
+.tg-newsgrid{
+	width:100%;
+	float:left;
+}
+.tg-newsgrid .tg-post{min-height:390px;}
